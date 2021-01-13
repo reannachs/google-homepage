@@ -6,8 +6,7 @@
 }
 
 body {
-    background-color: 000;
-    font-family: Arial, sans-serif;
+    background-color:000;
 }
 
 .center {
@@ -27,6 +26,8 @@ li {
     font-size: 13px; 
     margin: 5px;
     vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#70757A;
 }
 
 li a {
@@ -48,7 +49,7 @@ li a:hover {
 }
 
 footer{
-    background-color: 	#DEE1E6;
+    background-color: 	#f4f4f4;
     position:absolute;
     bottom:0;
     width:100%;
@@ -56,20 +57,65 @@ footer{
 
 input{
     width: 500px;
-    border-radius: 40px;
+    height: 40px;
+    border-radius: 50px;
     border-style:solid;
-    border-color:#DEE1E6;
+    border-color:rgb(189, 189, 189);
     padding: 0px, 40px;
     margin-bottom: 20px;
+    border-width: thin;
+    
 }
 
 input:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 1px 2px 2px rgba(204, 204, 204, 0.6);
+    border-color: rgba(204, 204, 204, 0);
 }
 
 
+#mic {
+    position: relative;
+    top: 7px;
+    right:40px;
+    color: #a8a4a4;
+}
 
+#search{
+    position:relative;
+    top: 7px;
+    left: 40px;
+    color: #a8a4a4;
+}
+.buttons{
+    font-size:13px;
+    position:relative;
+    top: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+#gsearch{
+    position:relative;
+    right:5px;
+    background-color:#f4f4f4;
+    border-style:none;
+    padding: 9px;
+    border-radius:3px;
+    
+}
 
+#feeling{
+    position:relative;
+    left: 5px;
+    background-color:#f4f4f4;
+    border-style:none;
+    padding: 9px;
+    border-radius:3px;
+}
 
+#gsearch:hover, #feeling:hover{
+    box-shadow: 0px 1px 2px 2px rgba(204, 204, 204, 0.6);
+    border-color: rgba(204, 204, 204, 0);
+    cursor: pointer;
+}
 
